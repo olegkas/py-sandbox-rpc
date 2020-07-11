@@ -1,0 +1,9 @@
+version: "2"
+services:
+  sample-rpc-service:
+    image: sample-rpc-service:latest
+    container_name: sample-rpc-service
+    ports:
+      - 4321:5000
+    restart: always
+    tty: true
