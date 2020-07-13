@@ -18,7 +18,7 @@ import hashlib
 import signal
 import traceback
 
-from sandbox_rpc.common import rpc_data_pack, rpc_data_unpack, settings, RpcMockPackage, RpcFnCodeContatiner, \
+from easy_pyrpc.common import rpc_data_pack, rpc_data_unpack, settings, RpcMockPackage, RpcFnCodeContatiner, \
     RpcRemoteException, RpcRegisterException, RpcInvokeException, RpcKeepAliveException, RpcConnectionException, \
     RpcNoRegistryWarning
 

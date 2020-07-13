@@ -16,12 +16,12 @@ import io
 from flask_restplus import Namespace
 from flask import request
 
-from sandbox_rpc.common import rpc_data_unpack, rpc_data_pack, settings, RpcRemoteException
+from easy_pyrpc.common import rpc_data_unpack, rpc_data_pack, settings, RpcRemoteException
 
 try:
     import uwsgi as cache_man
 except ModuleNotFoundError:
-    import sandbox_rpc.service.rpc_cache as cache_man
+    import easy_pyrpc.service.rpc_cache as cache_man
 
 
 def set_custom_rpc_cache_manager(custom_cache_man):
@@ -30,7 +30,7 @@ def set_custom_rpc_cache_manager(custom_cache_man):
 
 
 ns = Namespace(
-    'PySandboxRPC',
+    'EasyPyRPC',
     description='RPC handler namespace')
 
 

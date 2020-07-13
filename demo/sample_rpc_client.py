@@ -1,6 +1,6 @@
 import subprocess
-from sandbox_rpc.client import rpc
-from sandbox_rpc.common import RpcBaseException
+from easy_pyrpc.client import rpc
+from easy_pyrpc.common import RpcBaseException
 import logging
 import os
 

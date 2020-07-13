@@ -11,10 +11,10 @@ import logging
 
 from flask_restplus import Namespace, Resource
 from flask import request, make_response
-from sandbox_rpc.service import rpc_backend
+from easy_pyrpc.service import rpc_backend
 
 rpc_namespace = Namespace(
-    'PySandboxRPC',
+    'EasyPyRPC',
     description='RPC handler namespace')
 
 

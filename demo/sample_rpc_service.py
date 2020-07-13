@@ -12,11 +12,11 @@ import logging
 from flask import Flask
 from flask_restplus import Api
 
-from sandbox_rpc.service import version
-from sandbox_rpc.service import rpc_namespace
+from easy_pyrpc.service import version
+from easy_pyrpc.service import rpc_namespace
 
-# from sandbox_rpc.service import set_custom_rpc_cache_manager
-# from sandbox_rpc.service import rpc_cache
+# from easy_pyrpc.service import set_custom_rpc_cache_manager
+# from easy_pyrpc.service import rpc_cache
 # set_custom_rpc_cache_manager(rpc_cache)
 
 logging.basicConfig(

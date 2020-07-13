@@ -24,7 +24,7 @@ if 'sdist' in sys.argv:
         fh.write(version)
 
 setuptools.setup(
-    name="sandbox-rpc",
+    name="easy-pyrpc",
     version=version,
     author="Oleg Kashaev",
     author_email="oleg.kashaev.4@gmail.com",
@@ -32,7 +32,7 @@ setuptools.setup(
                 " & Flask base namespace to execute rpc remotely",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/olegkas4/py-sandbox-rpc",
+    url="https://github.com/olegkas4/easy-pyrpc",
     package_dir={'': 'src'},
     packages=setuptools.find_packages('src'),
     classifiers=[

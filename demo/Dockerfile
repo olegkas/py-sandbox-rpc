@@ -12,8 +12,8 @@ RUN apt-get update -qq -y \
 COPY ./demo/requirements.txt ./
 RUN pip install -r requirements.txt
 
-COPY ./demo/sandbox_rpc-*.whl ./
-RUN pip install ./sandbox_rpc-*.whl
+COPY ./demo/easy_pyrpc-*.whl ./
+RUN pip install ./easy_pyrpc-*.whl
 
 WORKDIR /opt/sample-rpc-service
 
