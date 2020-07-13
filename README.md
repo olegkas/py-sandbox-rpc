@@ -1,2 +1,2 @@
-# py-sandbox-rpc
-rpc with python 3
+# easy-pyrpc
+easy rpc with python 3.8
