@@ -32,7 +32,7 @@ setuptools.setup(
                 " & Flask base namespace to execute rpc remotely",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/olegkas4/easy-pyrpc",
+    url="https://github.com/olekas/easy-pyrpc",
     package_dir={'': 'src'},
     packages=setuptools.find_packages('src'),
     classifiers=[
