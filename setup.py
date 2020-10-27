@@ -50,6 +50,6 @@ setuptools.setup(
         'flask-restplus==0.13.0',
         'requests==2.23.0',
         'uWSGI==2.0.18',
-        'cryptography==2.9.2'
+        'cryptography==3.2'
     ]
 )
